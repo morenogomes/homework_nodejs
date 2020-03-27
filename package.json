@@ -1,0 +1,24 @@
+{
+  "name": "02-homework",
+  "version": "1.0.0",
+  "description": "Create a command-line application that dynamically generates a README.md from a user's input. The application will be invoked with the following command:",
+  "main": "index.js",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "pass": "^0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morenogomes/homework_nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/morenogomes/homework_nodejs/issues"
+  },
+  "homepage": "https://github.com/morenogomes/homework_nodejs#readme"
+}
