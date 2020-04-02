@@ -1,9 +1,8 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const path = require('path');
-const api = require("/utils/api");
-const generateMarkdown = require("utils/generateMarkdown");
-
+const api = require("./utils/api");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 const questions = [ 
     {
@@ -15,16 +14,35 @@ const questions = [
         type: "input",
         name: "title",
         message: "What is your project's name?"
-      } 
+      },
+       {
+        type: "list",
+        name: "license",
+        message: "What's your license?",
+        choices: ['None', 'MIT', 'apache-2.0', 'wtfpl']
+      }
+
 ];
 
 
-// function writeToFile(fileName, data) {
-//     return fs.
-// }
+function writeToFile(fileName, data) {
+  return fs.writeFileSync(path.join(process.cwd(), fileName), data);
+} 
+
 
 // function init() {
+function init() {
+  inquirer.prompt(questions).then((inquirerResponses) => {
 
-// }
+  console.log("loading");
 
-// init();
+  api
+  .getUser(inquirerResponses.gitHub)
+  .then(({ data }) => {
+  writeToFile("README.md", generateMarkdown({ ...inquirerResponses, ...data }));
+
+})
+})
+}
+
+init();
