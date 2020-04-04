@@ -4,7 +4,8 @@ function generateProjectUrl(gitHub, title) {
 }
 
 function renderLicense(license, gitHub, title) {
-  if(licence !== "None") {
+
+  if(license !== "None") {
     return `[![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)](${generateProjectUrl(gitHub, title)})`
   }
   return " "
@@ -12,7 +13,7 @@ function renderLicense(license, gitHub, title) {
 
 
 function renderLicenseResponse(license) {
-  if(licence !=="None") {
+  if(license !=="None") {
     return (
       `## License
       This project is licensed under the ${license} license.`
@@ -22,6 +23,7 @@ function renderLicenseResponse(license) {
 }
 
 function generateMarkdown(data) {
+  // console.log(data.license);
   return `
 # ${data.title}
 ${renderLicense(data.license, data.gitHub, data.title)}
@@ -35,7 +37,7 @@ ${data.installation}
 # usage
 ${data.usage}
 * [Contributing](#contributing)
-${contributing.installation}
+${data.contributing}
 * [Tests](#tests)
 ${data.tests}
 #questions
@@ -48,7 +50,6 @@ Contact this user at ${data.email}
 
 `;
 }
-console.log(data.title);
 
 module.exports = generateMarkdown;
 

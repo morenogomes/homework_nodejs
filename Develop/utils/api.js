@@ -11,7 +11,7 @@ const api = {
       }&client_secret=${process.env.CLIENT_SECRET}`
     )
     .catch(error => {
-      console.log("invalid user name.");
+      console.log("Invalid user name.");
       process.exit(1);
     });
   }

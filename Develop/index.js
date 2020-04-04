@@ -20,8 +20,34 @@ const questions = [
         name: "license",
         message: "What's your license?",
         choices: ['None', 'MIT', 'apache-2.0', 'wtfpl']
+      },
+       {
+        type: "input",
+        name: "contributing",
+        message: "Who else contributed?"
+      },
+       {
+        type: "input",
+        name: "usage",
+        message: "How would you use the repo?"
+      },
+       {
+        type: "input",
+        name: "test",
+        message: "How would you run a test?",
+        default: "npm test"
+      },
+       {
+        type: "input",
+        name: "installation",
+        message: "How do you install depandences for this project?",
+        default: "npm install"
+      },
+      {
+        type: "input",
+        name: "description",
+        message: "Please dercibe this repo."
       }
-
 ];
 
 
@@ -34,7 +60,7 @@ function writeToFile(fileName, data) {
 function init() {
   inquirer.prompt(questions).then((inquirerResponses) => {
 
-  console.log("loading");
+  
 
   api
   .getUser(inquirerResponses.gitHub)
