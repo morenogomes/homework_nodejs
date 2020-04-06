@@ -46,7 +46,7 @@ const questions = [
       {
         type: "input",
         name: "description",
-        message: "Please dercibe this repo."
+        message: "Please describe this repo?"
       }
 ];
 
@@ -59,9 +59,6 @@ function writeToFile(fileName, data) {
 // function init() {
 function init() {
   inquirer.prompt(questions).then((inquirerResponses) => {
-
-  
-
   api
   .getUser(inquirerResponses.gitHub)
   .then(({ data }) => {

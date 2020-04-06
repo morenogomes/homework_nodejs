@@ -23,7 +23,9 @@ function renderLicenseResponse(license) {
 }
 
 function generateMarkdown(data) {
-  // console.log(data.license);
+
+  console.log('This is data!');
+  console.log(data);
   return `
 # ${data.title}
 ${renderLicense(data.license, data.gitHub, data.title)}
@@ -42,14 +44,14 @@ ${data.contributing}
 ${data.tests}
 #questions
 
-<img src="data.avatar_url"/>
-
+<img src="${data.avatar_url}"/>
+// ![GitHub Image]('https://avatars3.githubusercontent.com/u/11791361?v=4')
+${data.image}
 Contact this user at ${data.email}
-
-
-
 `;
 }
 
+
 module.exports = generateMarkdown;
 
+// avatar_url: 'https://avatars3.githubusercontent.com/u/11791361?v=4'

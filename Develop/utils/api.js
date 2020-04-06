@@ -18,8 +18,3 @@ const api = {
 };
 
 module.exports = api;
-
-// I assume I have to make an api call to retrieve the email and profile image.(Me)
-// The user will be prompted for their GitHub username,
-// which will be used to make a call to the GitHub API to retrieve their email and profile image. 
-
