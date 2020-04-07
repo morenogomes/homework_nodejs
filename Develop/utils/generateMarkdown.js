@@ -45,8 +45,8 @@ ${data.tests}
 #questions
 
 <img src="${data.avatar_url}"/>
-// ![GitHub Image]('https://avatars3.githubusercontent.com/u/11791361?v=4')
-${data.image}
+![GitHub Image]('https://avatars3.githubusercontent.com/u/59007822?s=400&u=37d1779a7aac57dee2812f7324b670d4120916ff&v=4')
+
 Contact this user at ${data.email}
 `;
 }
