@@ -63,6 +63,7 @@ function init() {
       .getUser(inquirerResponses.gitHub)
       .then(({ data }) => {
         writeToFile("README.md", generateMarkdown({ ...inquirerResponses, ...data }));
+        writeToFile("README.pdf", generatePDF({...inquirerResponses,...data}));
 
       })
   })
