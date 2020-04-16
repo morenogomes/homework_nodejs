@@ -4,9 +4,9 @@
 
 ## File:
 
-### 'readme-generator'
-### Description:
-## Homework 09 - Good README Generator
+### 'README-generator'
+## Description:
+### Homework 09 - Good README Generator
 
 ## Instructions:
 This is a README.md generator. Javascript, Jquery, NodeJS were used to build this application.
@@ -42,9 +42,9 @@ Type "node index.js" inside your Terminal.
 [Moreno Gomes](https://github.com/morenogomes)
 
 # Contact Me:
-Email:[morenogomes86@gmail.com](morenogomes86@gmail.com)
+Email: [morenogomes86@gmail.com](morenogomes86@gmail.com)
 
-Linkedin:[See my profile](https://www.linkedin.com/in/moreno-gomes-434470164/)
+Linkedin: [See my profile](https://www.linkedin.com/in/moreno-gomes-434470164/)
 
 ## This is how it works:
 ![Alt Text](Gifs/homework_nodejs1.gif)
