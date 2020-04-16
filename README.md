@@ -13,12 +13,12 @@ This is a README.md generator. Javascript, Jquery, NodeJS were used to build thi
 
 ## Usage:
 
-Open Terminal app;
-Go into your project directory.
-Make an npm install inside your terminal.
-Type in: node (your file name).js
-Follow the instructions.
-You should get 2 files after completing instructions: Readme.md / "GitHub-username".pdf
+1. Open Terminal app;
+2. Go into your project directory.
+3. Make an npm install inside your terminal.
+4. Type in: node (your file name).js
+5. Follow the instructions.
+..* You should get 2 files after completing instructions: Readme.md / "GitHub-username".pdf
 
 ## Informations:
 This is a command line application.
@@ -39,14 +39,14 @@ No contribution.
 Type "node index.js" inside your Terminal.
 
 # Developer:
-[Moreno Gomes:](https://github.com/morenogomes)
+[Moreno Gomes](https://github.com/morenogomes)
 
 # Contact Me:
-[Email:](morenogomes86@gmail.com)
+Email:[morenogomes86@gmail.com](morenogomes86@gmail.com)
 
-[LinkedIn](https://www.linkedin.com/in/moreno-gomes-434470164/)
+Linkedin:[See my profile](https://www.linkedin.com/in/moreno-gomes-434470164/)
 
-## Gif:
+## This is how it works:
 ![Alt Text](Gifs/homework_nodejs1.gif)
 ![Alt Text](Gifs/homework_nodejs2.gif)
 
