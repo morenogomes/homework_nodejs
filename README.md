@@ -36,13 +36,13 @@ None
 No contribution.
 
 # Tests:
-node index.js inside your Terminal.
+Type "node index.js" inside your Terminal.
 
 # Developer:
-Moreno Gomes
+[Moreno Gomes:](https://github.com/morenogomes)
 
 # Contact Me:
-Email: morenogomes86@gmail.com
+[Email:](morenogomes86@gmail.com)
 
 [LinkedIn](https://www.linkedin.com/in/moreno-gomes-434470164/)
 
