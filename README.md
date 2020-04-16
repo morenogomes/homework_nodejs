@@ -18,7 +18,7 @@ This is a README.md generator. Javascript, Jquery, NodeJS were used to build thi
 3. Make an npm install inside your terminal.
 4. Type in: node (your file name).js
 5. Follow the instructions.
-..* You should get 2 files after completing instructions: Readme.md / "GitHub-username".pdf
+6. You should get 2 files after completing instructions: Readme.md / "GitHub-username".pdf
 
 ## Informations:
 This is a command line application.
